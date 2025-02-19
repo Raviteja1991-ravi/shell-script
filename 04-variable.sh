@@ -1,10 +1,9 @@
 #!/bin/bash
-# Declaring a variable.
 
-PERSON1=Sachin
-PERSON2=Rahul
+PERSON1=$1
+PERSON2=$2
 
-# Main code 
+
 echo "$PERSON1:: Hello $PERSON2, How are you?"
 
 echo "$PERSON2:: Hi $PERSON1, i am fine"
